@@ -69,6 +69,8 @@ is_party = false
         
 		s_hurt = spr_e_virovirokun_hurt
 		s_ball = spr_kris_ball
+		s_lw_ball = spr_kris_lw_ball
+		s_lw_landed = spr_kris_lw_landed
 		s_landed = spr_kris_landed
 		s_slide = spr_kris_slide
 		s_run_postfix = ""

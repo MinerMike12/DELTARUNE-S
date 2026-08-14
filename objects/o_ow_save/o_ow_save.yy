@@ -10,8 +10,8 @@
   "name":"o_ow_save",
   "overriddenProperties":[],
   "parent":{
-    "name":"misc",
-    "path":"folders/@Engine/objects/ow/misc.yy",
+    "name":"ui",
+    "path":"folders/@Engine/objects/ui.yy",
   },
   "parentObjectId":{
     "name":"o_ow_interactable",

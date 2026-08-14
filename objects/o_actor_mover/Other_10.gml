@@ -54,3 +54,27 @@ else if seed[step] == "jump" || seed[step] == "jump_into" {
 	}
 	character.s_override = true
 }
+else if seed[step] == "lw_jump" || seed[step] == "lw_jump_into" {
+	var dist = point_distance(0, 0, xdiff, ydiff)
+	
+	time[step] ??= 15
+	time[step] = max(1, time[step])
+	
+    if play_sfx[step]
+	   audio_play(snd_jump,,,, 1)
+    
+    animate(character.x, xreq[step], time[step], anime_curve.linear, character, "x")
+    animate(character.y, yreq[step], time[step], anime_curve.linear, character, "y")
+    
+    var a = animate(0, -30, floor(time[step]/2), anime_curve.cubic_out, character, "yoff", false)
+        a._add(0, floor(time[step]/2), anime_curve.cubic_in)
+        a._start()
+    
+	
+	var spr = character.s_lw_ball
+	if sprite_exists(spr) {
+		character.sprite_index = spr
+		character.image_speed = 1
+	}
+	character.s_override = true
+}
