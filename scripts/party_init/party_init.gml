@@ -6,7 +6,7 @@ function party_init() {
     party_m_initialize("susie", party_m_susie)
     party_m_initialize("ralsei", party_m_ralsei)
     party_m_initialize("noelle", party_m_noelle)
-    
+	party_m_initialize("gerson", party_m_gerson)
 	global.party_names = []
 }
 function party_m_initialize(_name, _constructor) {
@@ -384,5 +384,68 @@ function party_m_noelle(_initialized_name) : party_m(_initialized_name) construc
 		victory: [spr_bnoelle_victory, true],
 		spare: [spr_bnoelle_act, "idle", 1],
 		attack_eff: spr_bnoelle_attackeff,
+	}
+}
+function party_m_gerson(_initialized_name) : party_m(_initialized_name) constructor {
+	name = "Gerson"
+    action_letter = "G"
+	obj = o_actor_gerson
+	
+	// colors
+	color = c_lime
+	darkcolor = c_green
+	iconcolor = darkcolor
+	
+	// stats
+	lv =	save_get("chapter")
+	desc =	"party_kris_desc"
+	power_stats = [
+		"???",
+		"???",
+		["party_stat_guts", 999, spr_ui_menu_icon_fire],
+	]
+	
+	max_hp =	party_m_calculate_hp(200, lv)
+    hp =		max_hp
+	attack =	50
+	defense =	25
+	magic =		30
+	element_resistance = {
+	}
+	
+	// inventory
+    weapon = new item_w_spookysword()
+    armor1 = new item_a_ambercard()
+    armor2 = new item_a_ambercard()
+	spells = [
+		new item_s_act()
+	]
+	
+	// sprites
+    s_name = "gerson"
+	s_state =		""
+	s_substate =	""
+	s_icon =		spr_ui_gerson_icon
+	s_icon_ow =		spr_ui_gerson_icon
+	s_icon_weapon = spr_ui_menu_weapon_axe
+	s_battle_intro =	1 // 1 for attack, 0 for full intro	
+	
+	battle_sprites = { // [sprite, whether stop at the end (or change to what sprite), (image speed of the upcoming sprite)]
+		act: [spr_bkris_act, true],
+		actready: spr_bkris_actready,
+		actend: [spr_bkris_actend, "idle", 1],
+		attack: [spr_bkris_attack, true],
+		attackready: spr_bkris_attackready,
+		defeat: spr_bkris_defeat,
+		defend: [spr_bkris_defend, true],
+		hurt: spr_bkris_hurt,
+		idle: spr_bkris_idle,
+		intro: [spr_bkris_intro, true],
+		introb: spr_bkris_introb,
+		itemuse: [spr_bkris_item, "idle", 1],
+		itemready: spr_bkris_itemready,
+		victory: [spr_bkris_victory, true],
+		spare: [spr_bkris_act, "idle", 1],
+		attack_eff: spr_bkris_attackeff,
 	}
 }

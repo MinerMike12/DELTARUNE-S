@@ -41,7 +41,7 @@ function item_darker_candy() : item_consumable() constructor {
 		noelle: "Oh, it's... sticky?"
 	}
     
-    buy_price = 240
+    buy_price = 250
     sell_price = 60
     
     item_localize("item_c_darker_candy")

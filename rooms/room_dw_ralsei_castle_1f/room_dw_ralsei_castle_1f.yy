@@ -25,6 +25,8 @@
     {"name":"inst_6495BAED","path":"rooms/room_dw_ralsei_castle_1f/room_dw_ralsei_castle_1f.yy",},
     {"name":"inst_67DCC696","path":"rooms/room_dw_ralsei_castle_1f/room_dw_ralsei_castle_1f.yy",},
     {"name":"inst_55009B78","path":"rooms/room_dw_ralsei_castle_1f/room_dw_ralsei_castle_1f.yy",},
+    {"name":"inst_64C82DF6","path":"rooms/room_dw_ralsei_castle_1f/room_dw_ralsei_castle_1f.yy",},
+    {"name":"inst_2845F00D","path":"rooms/room_dw_ralsei_castle_1f/room_dw_ralsei_castle_1f.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -54,6 +56,12 @@
         {"$GMRInstance":"v4","%Name":"inst_55009B78","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_55009B78","objectId":{"name":"o_dev_marker_land","path":"objects/o_dev_marker_land/o_dev_marker_land.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_dev_marker","path":"objects/o_dev_marker/o_dev_marker.yy",},"propertyId":{"name":"m_id","path":"objects/o_dev_marker/o_dev_marker.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":150.0,"y":150.0,},
+        {"$GMRInstance":"v4","%Name":"inst_64C82DF6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_64C82DF6","objectId":{"name":"o_trigger_warp","path":"objects/o_trigger_warp/o_trigger_warp.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_trigger_warp","path":"objects/o_trigger_warp/o_trigger_warp.yy",},"propertyId":{"name":"target_room","path":"objects/o_trigger_warp/o_trigger_warp.yy",},"resource":{"name":"room_dw_castle_dungeon","path":"rooms/room_dw_castle_dungeon/room_dw_castle_dungeon.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"room_dw_castle_dungeon",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.65,"scaleY":1.0,"x":434.0,"y":116.0,},
+        {"$GMRInstance":"v4","%Name":"inst_2845F00D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2845F00D","objectId":{"name":"o_dev_marker_land","path":"objects/o_dev_marker_land/o_dev_marker_land.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_dev_marker","path":"objects/o_dev_marker/o_dev_marker.yy",},"propertyId":{"name":"m_id","path":"objects/o_dev_marker/o_dev_marker.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":450.0,"y":150.0,},
       ],"layers":[],"name":"DEV_SHIT","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_6495BAED","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6495BAED","objectId":{"name":"obj_castle_cauldron","path":"objects/obj_castle_cauldron/obj_castle_cauldron.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":310.0,"y":160.0,},

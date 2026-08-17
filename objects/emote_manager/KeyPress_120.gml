@@ -1,0 +1,1 @@
+o_console.log_text("REGISTERED PARTY MEMBERS: " + string(struct_get_names(global.party)));

@@ -57,3 +57,4 @@ else {
     x_real = x;
     y_real = y;
 }
+instance_create(O_IMAGE_FRIEND, o_camera.x,o_camera.y)
