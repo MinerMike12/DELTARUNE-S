@@ -74,6 +74,8 @@
     {"name":"inst_80A64FD","path":"rooms/room_dw_castle_town/room_dw_castle_town.yy",},
     {"name":"inst_4DCF8A91","path":"rooms/room_dw_castle_town/room_dw_castle_town.yy",},
     {"name":"inst_36BA3416","path":"rooms/room_dw_castle_town/room_dw_castle_town.yy",},
+    {"name":"inst_55B0EC28","path":"rooms/room_dw_castle_town/room_dw_castle_town.yy",},
+    {"name":"inst_613FF183","path":"rooms/room_dw_castle_town/room_dw_castle_town.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -186,6 +188,8 @@
         {"$GMRInstance":"v4","%Name":"inst_36BA3416","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_36BA3416","objectId":{"name":"o_dev_marker_land","path":"objects/o_dev_marker_land/o_dev_marker_land.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_dev_marker","path":"objects/o_dev_marker/o_dev_marker.yy",},"propertyId":{"name":"m_id","path":"objects/o_dev_marker/o_dev_marker.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"4",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":590.0,"y":308.0,},
+        {"$GMRInstance":"v4","%Name":"inst_55B0EC28","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_55B0EC28","objectId":{"name":"o_ow_dungeon_door","path":"objects/o_ow_dungeon_door/o_ow_dungeon_door.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":164.0,"y":640.5,},
+        {"$GMRInstance":"v4","%Name":"inst_613FF183","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_613FF183","objectId":{"name":"o_dark_fountain_manager","path":"objects/o_dark_fountain_manager/o_dark_fountain_manager.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":416.0,},
       ],"layers":[],"name":"DEV_SHIT","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":200,"effectEnabled":true,"effectType":null,"gridX":40,"gridY":40,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_56BB74D6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_56BB74D6","objectId":{"name":"o_ow_save","path":"objects/o_ow_save/o_ow_save.yy",},"properties":[

@@ -1,3 +1,3 @@
 event_inherited()
-name = "gerson"
+name = "rouxls"
 is_party = true

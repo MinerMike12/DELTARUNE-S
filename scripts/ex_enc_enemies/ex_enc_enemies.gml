@@ -110,6 +110,59 @@ function ex_enemy_shadowguy() : enemy() constructor{
 				cutscene_play()
 			}
 		},
+		{
+			name: "Duel Slash",
+			party: ["susie"],
+			desc: "Duel Slash",
+			perform_act_anim: false,
+			exec: function(slot) {
+				cutscene_create()
+				cutscene_enc_wait(true)
+				cutscene_set_partysprite("kris", spr_bkris_attackready)
+				cutscene_set_partysprite("susie", spr_bsusie_attackready)
+				cutscene_func(enc_hurt_enemy, [slot, 125, "kris", snd_attack])
+				cutscene_func(enc_hurt_enemy, [slot, 125, "susie", snd_attack])
+				cutscene_set_partysprite("kris", spr_bkris_attack)
+				cutscene_func(afterimage, [.03, o_actor_kris])
+				cutscene_func(function() {
+					var inst = afterimage(.03, o_actor_kris)
+                        inst.speed = 2
+				})
+				cutscene_set_partysprite("susie", spr_bsusie_attack)
+				cutscene_func(afterimage, [.03, o_actor_susie])
+				cutscene_func(function() {
+					var inst = afterimage(.03, o_actor_susie)
+                        inst.speed = 2
+				})
+				cutscene_sleep(20)
+				cutscene_set_partysprite("kris", spr_bkris_idle)
+				cutscene_set_partysprite("susie", spr_bsusie_idle)
+				cutscene_sleep(10)
+				cutscene_enc_wait(false)
+				cutscene_play()
+			}
+		},
+		//{
+		//	name: "DuelHeal",
+		//	party: ["susie", "ralsei"],
+		//	desc: "Heal party",
+		//	tp_cost: 16,
+		//	perform_act_anim: false,
+		//	exec: function() {
+		//		var ralsei_magic = party_getdata("ralsei", "magic")
+		//		var susie_magic = party_getdata("susie", "magic")
+		//		cutscene_create()
+		//		cutscene_enc_wait(true)
+		//		cutscene_dialogue("* Your SOUL shines its power on Susie and Susie!",,false)
+		//		cutscene_set_partysprite("ralsei", spr_bralsei_spellready)
+		//		cutscene_sleep(5)
+		//		cutscene_set_partysprite("ralsei", spr_bralsei_spell)
+		//		cutscene_func(party_heal_all, [susie_magic + ralsei_magic * 6 * 1])
+		//		cutscene_sleep(20)
+		//		cutscene_enc_wait(false)
+		//		cutscene_play()
+		//	}
+		//},
 	]
 	
 	// recruit

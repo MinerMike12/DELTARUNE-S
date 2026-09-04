@@ -186,6 +186,7 @@ is_party = false
     }
     
     dodge_outline_surf = -1
+	emote_outline_surf = -1
     dodge_mysoul = noone
     spawn_buffer = 4
     last_walk_frame = 0;

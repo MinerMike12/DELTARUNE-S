@@ -10,6 +10,13 @@ if global.knight == true {
 	var aftk1 = afterimage(0.05, _player)
 	aftk1.speed = 2
 }
+if global.showing_soul == true {
+	if !instance_exists(o_emote_soul)
+		instance_create(o_emote_soul)
+} else {
+	if instance_exists(o_emote_soul)
+		instance_destroy(o_emote_soul)
+}
 if global.kris_sliding == true && instance_exists(o_actor_kris) {
 	o_actor_kris.sprite_index = spr_kris_sit
 }

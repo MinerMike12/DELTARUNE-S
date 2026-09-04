@@ -47,6 +47,32 @@ if dodge_getalpha() > 0 && is_player { // outline and bg darkener
 	draw_surface_ext(dodge_outline_surf, xx - 160, yy - 120, 1, 1, 0, c_white, dodge_getalpha())
 }
 
+if global.showing_soul ==  true && is_player { // outline and bg darkener
+	if !surface_exists(emote_outline_surf) // create outline surface
+		emote_outline_surf = surface_create(320, 240)
+	
+	surface_set_target(emote_outline_surf) { // draw red outline
+		draw_clear_alpha(0, 0)
+		gpu_set_fog(true, c_red, 0, 0)
+	
+		for (var i = 0; i < 360; i += 90) {
+			var xdelta = lengthdir_x(1, i)
+			var ydelta = lengthdir_y(1, i)
+			
+		    s_drawer(spr, image_index, 
+				160 + xdelta, 120 + ydelta,
+				image_xscale, image_yscale,
+				image_angle, image_blend, image_alpha
+			)
+		}
+		
+		gpu_set_fog(false, c_white, 0, 0)
+	}
+	surface_reset_target()
+	
+	draw_surface_ext(emote_outline_surf, xx - 160, yy - 120, 1, 1, 0, c_white, 1)
+}
+
 // draw the sprite
 s_drawer(spr, image_index, 
 	xx, yy, 

@@ -1,5 +1,5 @@
 #macro GAME_VERSION "v3.0.0"
-#macro GAME_NAME "tlDR Engine"
+#macro GAME_NAME "DELTARUNE FREEDOM"
 #macro GAME_LAST_COMPATIBLE_VERSION "v2.0.0" // last compatible save version
 
 #macro GAME_W 320

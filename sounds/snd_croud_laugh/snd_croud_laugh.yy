@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"snd_croud_laugh",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":3,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":4.7644444,
+  "exportDir":"",
+  "name":"snd_croud_laugh",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_croud_laugh.wav",
+  "volume":1.0,
+}

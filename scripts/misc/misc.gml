@@ -31,6 +31,15 @@ function string_to_color(color_string){
         case "c_orange":
         case "orange":
             return c_orange
+		case "c_gold":
+		case "gold":
+			return nc_gold
+		case "c_pink":
+		case "pink":
+			return nc_pink
+		case "c_jpurple":
+		case "jpurple":
+			return nc_jpurple
 		default:
 			return c_white
 	}
@@ -51,6 +60,10 @@ function color_to_string(color){
 			return "c_lime"
 		case c_black:
 			return "c_black"
+		case nc_gold:
+			return "nc_gold"
+		case nc_pink:
+			return "nc_pink"
 		case cc:
 			return "tired_aqua"
 		default:

@@ -6,7 +6,7 @@ function party_init() {
     party_m_initialize("susie", party_m_susie)
     party_m_initialize("ralsei", party_m_ralsei)
     party_m_initialize("noelle", party_m_noelle)
-	party_m_initialize("gerson", party_m_gerson)
+	//party_m_initialize("rouxls", party_m_rouxls)
 	global.party_names = []
 }
 function party_m_initialize(_name, _constructor) {
@@ -215,7 +215,7 @@ function party_m_susie(_initialized_name) : party_m(_initialized_name) construct
 	spells = [
 		new item_s_rudebuster(),
         new item_s_susieheal({progress: 3, uses: 0}),
-        new item_s_scythemare()
+        new item_s_scythemare(),
 	]
 	
 	// sprites
@@ -386,30 +386,30 @@ function party_m_noelle(_initialized_name) : party_m(_initialized_name) construc
 		attack_eff: spr_bnoelle_attackeff,
 	}
 }
-function party_m_gerson(_initialized_name) : party_m(_initialized_name) constructor {
-	name = "Gerson"
-    action_letter = "G"
-	obj = o_actor_gerson
+function party_m_rouxls(_initialized_name) : party_m(_initialized_name) constructor {
+	name = "Rouxls Kaard"
+    action_letter = "RK"
+	obj = o_actor_rouxls
 	
 	// colors
-	color = c_lime
-	darkcolor = c_green
-	iconcolor = darkcolor
+	color = c_blue
+	darkcolor = c_navy
+	iconcolor = color
 	
 	// stats
-	lv =	save_get("chapter")
-	desc =	"party_kris_desc"
+	lv =	9
+	desc =	"IT IS I, ROUXLS KAARD"
 	power_stats = [
 		"???",
 		"???",
-		["party_stat_guts", 999, spr_ui_menu_icon_fire],
+		["party_stat_guts", 2, spr_ui_menu_icon_fire],
 	]
 	
-	max_hp =	party_m_calculate_hp(200, lv)
+	max_hp =	party_m_calculate_hp(90, lv)
     hp =		max_hp
-	attack =	50
-	defense =	25
-	magic =		30
+	attack =	-1
+	defense =	10
+	magic =		10
 	element_resistance = {
 	}
 	
@@ -418,16 +418,16 @@ function party_m_gerson(_initialized_name) : party_m(_initialized_name) construc
     armor1 = new item_a_ambercard()
     armor2 = new item_a_ambercard()
 	spells = [
-		new item_s_act()
+		//new item_s_act()
 	]
 	
 	// sprites
-    s_name = "gerson"
+    s_name = "rouxls"
 	s_state =		""
 	s_substate =	""
-	s_icon =		spr_ui_gerson_icon
-	s_icon_ow =		spr_ui_gerson_icon
-	s_icon_weapon = spr_ui_menu_weapon_axe
+	s_icon =		spr_ui_kris_icon
+	s_icon_ow =		spr_ui_kris_head
+	s_icon_weapon = spr_ui_menu_weapon_sword
 	s_battle_intro =	1 // 1 for attack, 0 for full intro	
 	
 	battle_sprites = { // [sprite, whether stop at the end (or change to what sprite), (image speed of the upcoming sprite)]

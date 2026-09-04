@@ -3,6 +3,12 @@ global.player = get_leader()
 global.ball = false
 
 item_list = [
+	 {
+        name: "Show Soul",
+        action: function() {
+			global.showing_soul = !global.showing_soul
+        }
+    },
     {
         name: "Tweak",
         action: function() {

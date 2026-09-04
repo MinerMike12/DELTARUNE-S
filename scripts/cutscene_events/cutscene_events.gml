@@ -401,6 +401,7 @@ function cutscene_camera_pan(x_dest, y_dest, time, wait = true, ease_type = "lin
     );
     event.time = time;
     event.timer = 0;
+	
     
     event.step = method(event, function() {
         timer ++;

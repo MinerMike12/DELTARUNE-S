@@ -1,6 +1,6 @@
 yadd = -80
 alpha = 0
-selection = global.chapter
+selection = 0
 horselection = 0
 sselection = 0
 confirming = false
@@ -18,7 +18,7 @@ languages = true
 
 lock = false
 surf = -1
-state = -1
+state = 0
 musplayed = 0
 
 complete_ch = 0

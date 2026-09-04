@@ -29,6 +29,9 @@
     {"name":"inst_546C6015","path":"rooms/room_schoollobby/room_schoollobby.yy",},
     {"name":"inst_2340E666","path":"rooms/room_schoollobby/room_schoollobby.yy",},
     {"name":"inst_22941742","path":"rooms/room_schoollobby/room_schoollobby.yy",},
+    {"name":"inst_36441E5A","path":"rooms/room_schoollobby/room_schoollobby.yy",},
+    {"name":"inst_1EE586C8","path":"rooms/room_schoollobby/room_schoollobby.yy",},
+    {"name":"inst_4D27BA20","path":"rooms/room_schoollobby/room_schoollobby.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -58,6 +61,15 @@
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.0,"scaleY":1.0,"x":440.0,"y":-12.0,},
         {"$GMRInstance":"v4","%Name":"inst_2340E666","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2340E666","objectId":{"name":"o_dev_marker_land","path":"objects/o_dev_marker_land/o_dev_marker_land.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":470.0,"y":22.0,},
         {"$GMRInstance":"v4","%Name":"inst_22941742","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_22941742","objectId":{"name":"o_dev_playermarker","path":"objects/o_dev_playermarker/o_dev_playermarker.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":470.5,"y":228.0,},
+        {"$GMRInstance":"v4","%Name":"inst_36441E5A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_36441E5A","objectId":{"name":"o_trigger_warp","path":"objects/o_trigger_warp/o_trigger_warp.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_trigger_warp","path":"objects/o_trigger_warp/o_trigger_warp.yy",},"propertyId":{"name":"target_room","path":"objects/o_trigger_warp/o_trigger_warp.yy",},"resource":{"name":"room_town_school","path":"rooms/room_town_school/room_town_school.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"room_town_school",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.0,"scaleY":1.0,"x":440.0,"y":412.0,},
+        {"$GMRInstance":"v4","%Name":"inst_1EE586C8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1EE586C8","objectId":{"name":"o_dev_marker_land","path":"objects/o_dev_marker_land/o_dev_marker_land.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_dev_marker","path":"objects/o_dev_marker/o_dev_marker.yy",},"propertyId":{"name":"m_id","path":"objects/o_dev_marker/o_dev_marker.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":470.0,"y":398.0,},
+        {"$GMRInstance":"v4","%Name":"inst_4D27BA20","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4D27BA20","objectId":{"name":"o_dev_music","path":"objects/o_dev_music/o_dev_music.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_dev_music","path":"objects/o_dev_music/o_dev_music.yy",},"propertyId":{"name":"mus","path":"objects/o_dev_music/o_dev_music.yy",},"resource":{"name":"mus_town_day","path":"sounds/mus_town_day/mus_town_day.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"mus_town_day",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":544.0,"y":320.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"bg_room_schoollobby","path":"sprites/bg_room_schoollobby/bg_room_schoollobby.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],

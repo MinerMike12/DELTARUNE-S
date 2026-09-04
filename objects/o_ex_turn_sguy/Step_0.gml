@@ -104,3 +104,25 @@ else if pattern == "gun" { // gun attack
 		instance_destroy()
 	}
 }
+
+if pattern == "testing" {
+	if timer % 7 == 0 && timer > 6 {
+		var o = enemy_struct.actor_id
+		var half_h = o_enc_box.height / 2;
+		var boxx = o_enc_box.x
+		var boxy = o_enc_box.y
+		var bulletlx = boxx + 100
+		var bulletrx = boxx - 100
+		var bulletl = instance_create(o_ex_bullet_sguy_bullet, bulletlx, random_range(boxy + half_h, boxy - half_h), DEPTH_ENCOUNTER.BULLETS_OUTSIDE)
+		var bulletr = instance_create(o_ex_bullet_sguy_bullet, bulletrx, random_range(boxy + half_h, boxy - half_h), DEPTH_ENCOUNTER.BULLETS_OUTSIDE)
+		bulletl.hspeed = -2.5
+		bulletr.hspeed = 2.5
+		bulletr.image_angle = -180
+	}
+	if timer == timer_end - 15 {
+		
+		
+		instance_destroy()
+		
+	}
+}

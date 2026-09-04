@@ -1,0 +1,18 @@
+{
+  "$GMPath":"",
+  "%Name":"dungeon_dancers",
+  "closed":true,
+  "kind":0,
+  "name":"dungeon_dancers",
+  "parent":{
+    "name":"dungeon",
+    "path":"folders/Paths/dungeon.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":512.0,"y":256.0,},
+    {"speed":100.0,"x":512.0,"y":128.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

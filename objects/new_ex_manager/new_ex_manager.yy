@@ -1,21 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"o_actor_gerson",
+  "%Name":"new_ex_manager",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"o_actor_gerson",
+  "name":"new_ex_manager",
   "overriddenProperties":[],
   "parent":{
-    "name":"party",
-    "path":"folders/@Engine/objects/actors/party.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
-  "parentObjectId":{
-    "name":"o_actor",
-    "path":"objects/o_actor/o_actor.yy",
-  },
-  "persistent":false,
+  "parentObjectId":null,
+  "persistent":true,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -32,13 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_kris_down",
-    "path":"sprites/spr_kris_down/spr_kris_down.yy",
-  },
-  "spriteMaskId":{
-    "name":"spr_kris_down",
-    "path":"sprites/spr_kris_down/spr_kris_down.yy",
-  },
+  "spriteId":null,
+  "spriteMaskId":null,
   "visible":true,
 }

@@ -39,7 +39,8 @@ else {
         
 		for (var i = 0; i < array_length(global.registered_chapters); ++i) {
 			if selection == i
-				draw_set_color(c_yellow);
+				//draw_set_color(c_yellow)
+				;
 			else if !is_struct(global.registered_chapters[i]) 
 				draw_set_color(c_gray);
 			else 
@@ -86,7 +87,7 @@ else {
 						264 - 16 - 12 - (loc_getlang() == "ja" ? 16 : 0), 24 + i*60 + yadd,
 						2, 2, 0, c_red, alpha
 					);
-					draw_set_color(c_yellow)
+					//draw_set_color(c_yellow)
 				}
 				
 				draw_text_transformed(264 - (loc_getlang() == "ja" ? 16 : 0), 24 - 8 + i*60 + yadd, loc("chapter_select_play"), 2, 2, 0)
@@ -97,11 +98,11 @@ else {
 						414 - 16 - 12 + (loc_getlang() == "ja" ? 12 : 0), 24 + i*60 + yadd, 
 						2, 2, 0, c_red, alpha
 					)
-					draw_set_color(c_yellow)
+					//draw_set_color(c_yellow)
 				}
 				
 				draw_text_transformed(414 + (loc_getlang() == "ja" ? 12 : 0), 24 - 8 + i*60 + yadd, loc("chapter_select_donot"), 2, 2, 0)
-				draw_set_color(c_yellow)
+				//draw_set_color(c_yellow)
 			}
 			else {
 				draw_set_halign(fa_center);
@@ -147,7 +148,7 @@ else {
 			draw_set_halign(fa_center)
 			
 			if selection == total && horselection == 0 {
-				draw_set_color(c_yellow)
+				//draw_set_color(c_yellow)
 				draw_sprite_ext(spr_ui_soul, 0, 320 - string_width(loc("chapter_select_quit")) - 30, 442, 2, 2, 0, c_red, alpha)
 			}
 			draw_text_transformed(320, 440-6 + yadd, loc("chapter_select_quit"), 2, 2, 0)

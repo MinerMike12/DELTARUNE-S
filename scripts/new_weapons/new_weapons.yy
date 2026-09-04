@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"new_weapons",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"new_weapons",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
